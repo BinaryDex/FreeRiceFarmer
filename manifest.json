@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "DeX Freerice",
+  "description": "AutoFarm rice at freerice.com made for the DeX group.",
+  "version": "1",
+  "author": "Dex",
+  "icons": {
+    "48": "favicon48.png",
+    "128": "favicon128.png",
+    "256": "favicon256.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "http://freerice.com/*",
+    "https://freerice.com/*",
+    "http://*.freerice.com/*",
+    "https://*.freerice.com/*"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "favicon48.png",
+    "default_title": "El Pais Article Hack"
+  }
+}
